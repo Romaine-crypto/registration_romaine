@@ -1,16 +1,16 @@
 <?php
-    //$host = 'localhost';
-    //$db = 'attendance_romaine';
-    //$user = 'root';
-    //$pass = '';
-    //$charset = 'utf8mb4';
+    $host = 'localhost';
+    $db = 'attendance_romaine';
+    $user = 'root';
+    $pass = '';
+    $charset = 'utf8mb4';
 
     //Remote Database connection
-    $host = 'applied-web.mysql.database.azure.com';
-    $db = 'springfield_romaine';
-    $user = 'appliedweb_user@applied-web';
-    $pass = 'P@ssword1';
-    $charset = 'utf8mb4';
+    //$host = 'applied-web.mysql.database.azure.com';
+    //$db = 'springfield_romaine';
+    //$user = 'appliedweb_user@applied-web';
+    //$pass = 'P@ssword1';
+    //$charset = 'utf8mb4';
 
     $dsn = "mysql:host=$host; dbname=$db; charset=$charset";
 
@@ -30,5 +30,5 @@
     $crud = new crud($pdo); 
     $user = new user($pdo); 
 
-    //$user->insertUser("admin", "password");
+    //$user->insertUser("admin", "@dministrat0r");
 ?>
